@@ -1,0 +1,4 @@
+leviathan0
+
+#i=level_number
+#sshpass -p $(cat leviathan$i | head -1) ssh leviathan$i@leviathan.labs.overthewire.org -p 2223
